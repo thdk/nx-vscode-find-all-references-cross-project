@@ -3,8 +3,10 @@ import * as ReactDOM from 'react-dom/client';
 
 import App from './app/app';
 import { libA } from '@demo/lib-a';
+import { libB } from 'lib-b';
 
 libA();
+libB();
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
